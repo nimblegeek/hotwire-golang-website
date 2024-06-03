@@ -1,0 +1,17 @@
+{
+  "name": "hotwire-golang-website-1",
+  "version": "1.0.0",
+  "description": "A project using Hotwire with Golang",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hotwire-turbo": "^7.0.0-rc.1",
+    "mkcert": "^1.4.3"
+  }
+}

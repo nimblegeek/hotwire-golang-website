@@ -83,3 +83,4 @@ certs:
 	@mkdir -p .certs
 	@mkcert -cert-file .certs/hotwire.localhost.pem -key-file .certs/hotwire.localhost.key hotwire.localhost
 .PHONY: certs
+
